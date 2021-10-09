@@ -25,18 +25,6 @@ GRA makes up for the shortcomings of systematic analysis using mathematical stat
 
 ## Operation steps and its principles
 
-### Define the function
-
-```matlab
-function y = Obj_fun1(x)
-    y = 11*sin(x) + 7*cos(5*x);
-end
-```
-
-*==notice: the function must under GRA branch==*
-
-### GRA 
-
 ``` matlab
 function ret=Gray_relation(Y,X)
 %Y represents a parent sequence, or dependent variable
